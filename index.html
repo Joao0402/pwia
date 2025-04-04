@@ -329,7 +329,333 @@
                     Recursos e Ferramentas:</p>
                     
                    <p> Existem diversos recursos e ferramentas online para aprender e trabalhar com CSS, como documentação da MDN Web Docs, cursos online, editores de código e ferramentas de desenvolvimento do navegador.</P>
-        
+                    <P>1. Seletores
+                        <P></P>  Seletores são usados para "selecionar" os elementos HTML que você quer estilizar. Alguns dos principais seletores são:
+                        
+                        <p></p> de elemento: Aplica a regra a todos os elementos do tipo selecionado. Exemplo: p { ... }
+                        
+                        <P></P>Seletor de classe: Aplica a regra a todos os elementos com a classe especificada. Exemplo: .minha-classe { ... }
+                        
+                <P></P> Seletores de atributo: Aplica a regra a elementos que possuem um atributo específico. Exemplo: [type="text"] { ... }
+                        
+                       <p></p> Seletores universais: Aplica a regra a todos os elementos. Exemplo: * { ... }
+                        
+                        <P></P>Seletores de pseudo-classe: Aplica a regra a um estado específico de um elemento. Exemplo: a:hover { ... }
+                        
+                        <P></P>2. Propriedades de Estilo Comuns
+                       <P></P> Propriedades de Layout
+                        <P></P>width: Define a largura de um elemento.
+                        
+                        <P></P>height: Define a altura de um elemento.
+                        
+                        <P></P>>padding: Define o preenchimento de um elemento.
+                        
+                       <P></P> border: Define a borda de um elemento.
+                        
+                        <P></P>display: Define como um elemento será exibido (ex: block, inline, flex, grid).
+                        
+                        <P></P>position: Define o posicionamento de um elemento (ex: static, relative, absolute, fixed).
+                        
+                        <P></P>top, right, bottom, left: Usados junto com position para posicionar um elemento.
+                        
+                        <P></P>z-index: Controla a sobreposição de elementos posicionados.
+                        
+                        <P></P>flexbox (display: flex): Para criar layouts flexíveis.
+                        
+                        <P></P>grid (display: grid): Para criar layouts baseados em grid.
+                        
+                        <P></P>Propriedades de Tipografia
+                        <P></P>font-family: Define a família da fonte.
+                        
+                        <P></P>font-size: Define o tamanho da fonte.
+                        
+                        <P></P>font-weight: Define a espessura da fonte (ex: normal, bold).
+                        
+                        <P></P>font-style: Define o estilo da fonte (ex: normal, italic).
+                        
+                        <P></P>line-height: Define a altura da linha de texto.
+                        
+                        <P></P>letter-spacing: Define o espaçamento entre as letras.
+                        
+                        <P></P>text-align: Define o alinhamento do texto (ex: left, center, right).
+                        
+                        <P></P>text-decoration: Define decorações no texto (ex: underline, overline, line-through).
+                        
+                        <P></P>text-transform: Define a transformação do texto (ex: uppercase, lowercase, capitalize).
+                        
+                        <P></P>>Propriedades de Cor
+                       <P></P> color: Define a cor do texto.
+                        
+                       <P></P> background-color: Define a cor de fundo de um elemento.
+                        
+                       <P></P> border-color: Define a cor da borda.
+                        
+                        <P></P>opacity: Define a opacidade de um elemento (ex: 0.5 para 50% de opacidade).
+                        
+                       <P></P> Propriedades de Estilo de Borda
+                        <P></P>border-width: Define a espessura da borda.
+                        
+                        <P></P>border-style: Define o estilo da borda (ex: solid, dashed, dotted).
+                        
+                        <P></P>border-radius: Define o arredondamento das bordas.
+                        
+                        <P></P>box-shadow: Define a sombra de um elemento.
+                        
+                        <P></P>outline: Define uma linha de contorno ao redor de um elemento.
+                        
+                        <P></P>Propriedades de Listas
+                        <P></P>list-style: Define o estilo da lista (ex: none, disc, circle).
+                        
+                        <P></P>list-style-type: Define o tipo de marcador de lista (ex: square, decimal).
+                        
+                        <P></P>list-style-image: Define uma imagem como marcador de lista.
+                        
+                        <P></P>Propriedades de Efeitos de Transição e Animação
+                        <P></P>transition: Define transições de propriedades CSS.
+                        
+                        <P></P>transition-duration: Define a duração da transição.
+                        
+                       <P></P> transition-timing-function: Define o tempo de transição (ex: linear, ease-in).
+                        
+                        <P></P>transform: Aplica transformações (ex: rotate, scale, translate).
+                        
+                        <P></P>animation: Define animações CSS.
+                        
+                        <P></P>animation-duration: Define a duração da animação.
+                        
+                        <P></P>animation-delay: Define o atraso da animação.
+                        
+                        <P></P>Propriedades de Tabelas
+                       <P></P> border-collapse: Define o comportamento das bordas de tabelas.
+                        
+                       <P></P> border-spacing: Define o espaço entre as células de uma tabela.
+                        
+                        <P></P>caption-side: Define a posição da legenda da tabela.
+                        
+                       <P></P> table-layout: Define o layout da tabela (ex: auto, fixed).
+                        
+                        <P></P>Propriedades de Imagens
+                        <P></P>background-image: Define uma imagem de fundo.
+                        
+                        <P></P>background-size: Define o tamanho da imagem de fundo.
+                        
+                        <P></P>background-repeat: Controla se a imagem de fundo será repetida.
+                        
+                        <P></P>object-fit: Controla o comportamento do dimensionamento de uma imagem em um contêiner.
+                        
+                        <P></P>Propriedades de Flexbox
+                       <P></P> flex-direction: Define a direção dos itens dentro de um contêiner flexível (ex: row, column).
+                        
+                        <P></P>justify-content: Define o alinhamento horizontal dos itens (ex: flex-start, center, space-between).
+                        
+                        <P></P>align-items: Define o alinhamento vertical dos itens (ex: flex-start, center).
+                        
+                        <P></P>align-self: Define o alinhamento de um item específico.
+                        
+                       <P></P> 3. Comandos de CSS Avançado
+                        <P></P>@media: Define estilos que se aplicam a diferentes dispositivos ou tamanhos de tela (media queries).
+                        
+                       <P></P> @import: Permite importar outros arquivos CSS.
+                        
+                       <P></P> @font-face: Define fontes personalizadas.
+                        
+                       <P></P> @keyframes: Define animações com um conjunto de quadros-chave.
+                        
+                       <P></P> 4. Comandos de Funcionalidade
+                       <P></P> var(): Permite o uso de variáveis CSS.
+                        
+                        <P></P>calc(): Permite cálculos em propriedades CSS.
+                        
+                        <P></P>clamp(): Define valores limitados dinamicamente.
+                        
+                       <P></P>Essa é uma visão geral das propriedades e comandos mais comuns no CSS. Cada uma delas possui muitos detalhes e formas de aplicação, então, dependendo do seu projeto, você pode combinar e personalizar essas propriedades para criar o design desejado.
+                        
+                        <P>A tag input é um dos elementos mais importantes em HTML, usada para criar campos interativos onde os usuários podem inserir dados. Ela pode ser usada de várias formas, dependendo do atributo type especificado, que define o comportamento do campo de entrada (como texto, senha, data, número, etc.).
+
+                            Aqui está uma explicação detalhada sobre a tag input:
+                            
+                            Estrutura básica
+                            A estrutura básica de um campo de entrada é:
+                            
+                            html
+                            Copiar
+                            input type="tipo" name="nome" value="valor"
+                            type: Define o tipo de entrada (texto, senha, botão, etc.).
+                            
+                            name: Atribui um nome ao campo, o que é importante para enviar os dados no formulário.
+                            
+                            value: Define um valor inicial do campo, ou o valor enviado quando o formulário é enviado.
+                            
+                            Atributos comuns do input
+                            type: Define o tipo de entrada. Alguns dos tipos mais comuns são:
+                            
+                            text: Um campo de texto simples.
+                            
+                            password: Um campo de senha, onde os caracteres digitados são mascarados.
+                            
+                            email: Um campo para inserção de endereços de e-mail. Alguns navegadores podem validar automaticamente o formato do e-mail.
+                            
+                            number: Um campo que aceita apenas números.
+                            
+                            tel: Um campo para números de telefone. Pode haver uma validação simples dependendo do navegador.
+                            
+                            date: Um campo para selecionar uma data.
+                            
+                            file: Um campo que permite o upload de arquivos.
+                            
+                            radio: Um botão de opção (radio button), onde o usuário pode escolher uma opção entre várias.
+                            
+                            checkbox: Uma caixa de seleção (checkbox), onde o usuário pode marcar ou desmarcar uma opção.
+                            
+                            submit: Um botão para enviar o formulário.
+                            
+                            reset: Um botão para resetar os valores do formulário.
+                            
+                            button: Um botão genérico, que pode ser manipulado com JavaScript.
+                            
+                            name: Define o nome do campo, que será usado para identificar o campo de entrada ao enviar o formulário. Isso é essencial para o envio de dados ao servidor.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="text" name="username"
+                            value: Define o valor inicial do campo ou o valor que será enviado quando o formulário for enviado.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="text" name="username" value="JohnDoe"
+                            id: Atribui um identificador único ao campo de entrada, permitindo que ele seja referenciado por JavaScript ou associando-o a um rótulo (<label>).
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="text" id="username"
+                            placeholder: Exibe um texto de exemplo dentro do campo de entrada que desaparece quando o usuário começa a digitar.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="text" placeholder="Digite seu nome"
+                            required: Indica que o campo é obrigatório para o envio do formulário. O navegador irá verificar se o campo foi preenchido antes de enviar.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="text" name="email" required
+                            readonly: Faz com que o campo seja apenas leitura, ou seja, o usuário pode ver o valor, mas não pode alterá-lo.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="text" value="Texto fixo" readonly
+                            disabled: Torna o campo de entrada desabilitado, ou seja, o usuário não pode interagir com ele.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="text" value="Desabilitado" disabled
+                            maxlength: Define o número máximo de caracteres que o usuário pode inserir.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="text" maxlength="10"
+                            size: Define o tamanho visível do campo de entrada em caracteres.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="text" size="30"
+                            pattern: Define uma expressão regular que o valor do campo de entrada deve corresponder. Usado principalmente com text, email, etc., para validação.
+                            
+                            Exemplo (apenas números):
+                            
+                            html
+                            Copiar
+                            input type="text" pattern="[0-9]+">
+                            min e max: Define os valores mínimo e máximo permitidos em campos como number, date, etc.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="number" min="1" max="100"
+                            step: Define o incremento para um campo number ou range. Determina a diferença entre os valores possíveis.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                            input type="number" step="5"
+                            Exemplos de uso
+                            Campo de texto simples
+                            
+                            html
+                            Copiar
+                            input type="text" name="nome" placeholder="Digite seu nome"
+                            Campo de senha
+                            
+                            html
+                            Copiar
+                            input type="password" name="senha" placeholder="Digite sua senha"
+                            Campo de e-mail
+                            
+                            html
+                            Copiar
+                            input type="email" name="email" placeholder="Digite seu e-mail" required
+                            Campo de número
+                            
+                            html
+                            Copiar
+                            input type="number" name="idade" min="18" max="100" required
+                            Caixa de seleção (Checkbox)
+                            
+                            html
+                            Copiar
+                            input type="checkbox" name="aceitar" required> Aceito os termos e condições.
+                            Botão de envio
+                            
+                            html
+                            Copiar
+                            input type="submit" value="Enviar"
+                            Campo para upload de arquivo
+                            
+                            html
+                            Copiar
+                            input type="file" name="arquivo" accept=".jpg, .png"
+                            Botões de opção (Radio Buttons)
+                            
+                            html
+                            Copiar
+                            input type="radio" name="sexo" value="masculino"> Masculino
+                            input type="radio" name="sexo" value="feminino"> Feminino
+                            Como combinar com label
+                            É uma boa prática associar um label à tag input, usando o atributo for, o que melhora a acessibilidade. O for deve ter o mesmo valor do atributo id do input. Ao clicar no label, o campo de entrada é ativado.
+                            
+                            Exemplo:
+                            
+                            html
+                            Copiar
+                        label for="username">Nome de usuário:/label   
+                            input type="text" id="username" name="username"
+                            Considerações finais
+                            A tag input é muito flexível, e os diferentes tipos de entrada permitem que você crie formulários dinâmicos e interativos.
+                            
+                            A validação de dados no lado do cliente (usando atributos como required, min, max, pattern) pode ajudar a evitar que o usuário envie dados incorretos, mas a validação no servidor também é essencial para garantir a integridade dos dados.
+                            
+                            O uso de CSS e JavaScript pode melhorar ainda mais a interação do usuário com os campos de entrada.</P>
+                        
+                        </P>
             </OL>
 
             <p>COMO FAZER TABELAS</p>
