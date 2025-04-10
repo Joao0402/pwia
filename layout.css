@@ -28,8 +28,12 @@ aside{
 main{
     background-color: #0065ff;
     grid-area: main;
+  
 }
 footer{
     background-color: #006500;
     grid-area: footer;
+}
+main{
+    display: flex;
 }

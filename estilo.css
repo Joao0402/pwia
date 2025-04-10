@@ -12,6 +12,7 @@ align-items: center;
 height: 510px;
 width: 243.64px;
 background-color: #5647;
+margin: 30px;
 }
 .img-card{
     height:244px;
@@ -67,4 +68,8 @@ background-color: #5647;
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
 }
