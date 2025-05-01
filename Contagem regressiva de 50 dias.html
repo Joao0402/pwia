@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Atividade 3</title>
+</head>
+<body>
+  <h1>Contagem para ganhar na mega sena</h1>
+  <button onclick="contagemMegaSena()">Iniciar contagem</button>
+  <div id="contagem"></div>
+
+  <script>
+    function contagemMegaSena() {
+      let mensagem = '';
+      for (let i = 50; i >= 1; i--) {
+        mensagem += `Eu vou ganhar em ${i} dias<br>`;
+      }
+      document.getElementById('contagem').innerHTML = mensagem;
+    }
+  </script>
+</body>
+</html>

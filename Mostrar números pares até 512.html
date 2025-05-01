@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Atividade 2</title>
+</head>
+<body>
+  <h1>Números pares de 0 até 512</h1>
+  <button onclick="mostrarPares()">Mostrar</button>
+  <div id="pares"></div>
+
+  <script>
+    function mostrarPares() {
+      let resultado = '';
+      for (let i = 0; i <= 512; i += 2) {
+        resultado += i + ' ';
+      }
+      document.getElementById('pares').innerText = resultado;
+    }
+  </script>
+</body>
+</html>

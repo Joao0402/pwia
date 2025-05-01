@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Atividade 1</title>
+</head>
+<body>
+  <h1>Verificar número</h1>
+  <input type="number" id="numero" placeholder="Digite um número">
+  <button onclick="verificarNumero()">Verificar</button>
+  <p id="resultado"></p>
+
+  <script>
+    function verificarNumero() {
+      const num = Number(document.getElementById('numero').value);
+      let resultado = '';
+      if (num > 0) {
+        resultado = 'Número positivo';
+      } else if (num < 0) {
+        resultado = 'Número negativo';
+zero      } else {
+        resultado = 'Zero';
+      }
+      document.getElementById('resultado').innerText = resultado;
+    }
+  </script>
+</body>
+</html>
