@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return validarformulario()" action="salvar.html" method="post">
+
+    <label>Cep</label>
+    <input 
+    type="text"
+    name="cep"
+    id="cep"
+    class="campo"
+    ><br>
+
+    <label>endereco</label>
+    <input 
+    type="text"
+    name="endereco"
+    id="endereco"
+    class="campo"
+    ><br>
+
+    <label>numero</label>
+    <input 
+    type="text"
+    name="numero"
+    id="numero"
+    class="campo"
+    ><br>
+
+    <label>bairro</label>
+    <input 
+    type="text"
+    name="bairro"
+    id="bairro"
+    class="campo"
+    ><br>
+
+    <label>estado</label>
+    <input 
+    type="text"
+    name="estado"
+    id="estado"
+    class="campo"
+    br>
+     
+    <button id="botao" class="botao" type="submit"> enviar dados </button>
+
+    </form>
+
+    <script>
+    function validarformulario()
+    {
+        var cep = document.getElementById('cep')
+        var endereco = document.getElementById('endereco')
+        var numero = document.getElementById('numero')
+        var bairro = document.getElementById('bairro')
+        var cidade = document.getElementById('cidade')
+        var estado = document.getElementById('estado')
+
+        if(cep.value == ""){
+            alert('campo cep não pode ficar em branco')
+            cep.style.border = '2px solid red'
+            endereco.style.border = '2px solid blue'
+            numero.style.border = '2px solid yellow'
+            bairro.style.border = '2px solid black'
+            cidade.style.border = '2px solid orange'
+            estado.style.border = '2px solid pink'
+            return false;
+
+        }
+    }
+
+    function validartexto()
+    {
+        var cep = document.getElementById('cep')
+        console.log(cep.style.border)
+        if(cep.style.border != "")
+        {
+            cep.style.border
+        }
+    }
+    </script> 
+</body>
+</html>
