@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Crianção de elementos</h1>
+
+    <input type=" color" id="cor" name="cor" >
+    <label for="cor">Escolha uma cor</label> <br>
+
+    <input type="text" id="tab" name="tab">
+    <label for="tag">Escolha uma tag</label><br>
+    
+    <input type="text" id="texto" name="texto">
+    <label for="texto">Escreva o texto</label><br>
+    
+
+    <label for=""></label>
+    <div id="caixa"></div>
+    <button onclick="criarElemento()">
+        Gerar Elemento
+    </button>
+    <script>
+        var input = document.getElementById("text")
+        var tag =  document.getElementById("tag")
+        var texto =  document.getElementById("texto")
+        var div = document.getElementById("div")
+        var cor = document.getElementById("cor")
+        function criarElemento() 
+        {
+            var novoH1 = document.createElement(input.value)
+            novoH1.style.backgroundColor = cor.value
+            novoH1.style.color = '#FFFFFF'
+            novoH1.id ="titulo"
+            novoH1.classList.add("primeirotitulo")
+            novoH1.innerText ="Titulo criado dinamicamente"
+            var div = document.getElementById('caixa')
+            div.append(novoH1)
+
+        }
+    </script>
+</body>
+</html>

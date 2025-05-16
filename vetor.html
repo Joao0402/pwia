@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="texto" name="texto" type="text">
+    <label for="texto"></label>
+    <button onclick="adicionarimagens">Adicionar</button>
+
+    <ul id="listaimagens"></ul>
+
+    <script>
+
+        function adicionarimagens() {
+            var texto = document.getElementById('texto')
+            var lista = document.getElementById('listaimagens')
+            var item = document.getElementById('li')
+            var img = document.getElementById('img')
+         
+            
+            item.innerText =texto.value
+            lista.append(item)
+        }
+    </script>
+</body>
+</html>
